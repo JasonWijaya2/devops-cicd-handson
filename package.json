@@ -1,22 +1,14 @@
 {
-  "name": "devops-cicd-handson",
+  "name": "devops-lab",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "build": "echo 'Build complete'",
+    "lint": "echo 'Lint passed'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JasonWijaya2/devops-cicd-handson.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/JasonWijaya2/devops-cicd-handson/issues"
-  },
-  "homepage": "https://github.com/JasonWijaya2/devops-cicd-handson#readme"
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
