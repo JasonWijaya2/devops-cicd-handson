@@ -1,0 +1,22 @@
+{
+  "name": "devops-cicd-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonWijaya2/devops-cicd-handson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JasonWijaya2/devops-cicd-handson/issues"
+  },
+  "homepage": "https://github.com/JasonWijaya2/devops-cicd-handson#readme"
+}
